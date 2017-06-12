@@ -1,0 +1,27 @@
+*{ padding: 0px; margin: 0px}
+
+.cell{
+  position: relative;
+  float:left;
+  border: 3px solid red;
+  width: 45%;
+  text-align: center;
+  padding: 2.5%, 0%, 1.5%, 2.5%;
+  !this is shortcoding. Same as assigning padding to all
+  four side of padding in a clockwise
+}
+
+#cell2{
+  border: 3px solid green !important
+  !the important tag tells the browser to gives this
+  priority in the browser. Use sparingly.
+}
+
+}
+.cell:first-child{
+  clear:both;
+}
+}
+.cell:last-child{
+  border: 1px solid green !important
+}
